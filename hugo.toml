@@ -1,0 +1,83 @@
+baseURL = "https://github.com/zxcubika/portfolio/"
+title = "Ivan Tolkunov"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate = 10
+rssLimit = 10                                                                                                     # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+archetypeDir = "archetypes"
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "public"
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+enableMissingTranslationPlaceholders = false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+disableHugoGeneratorInject = false
+
+disableReadOtherPosts = false
+
+enableThemeToggle = false
+
+enableSharingButtons = true
+
+enableGlobalLanguageMenu = false
+
+[params.footer]
+trademark = false
+rss = false
+copyright = false
+author = false
+
+[params.favicon.color]
+mask = "#1b1c1d"
+msapplication = "#1b1c1d"
+theme = "#1b1c1d"
+
+[params.logo]
+logoMark = ">"
+logoText = "$ cowsay ..."
+logoHomeLink = "/"
+
+[[params.social]]
+name = "email"
+url = "mailto:tolkunov.ivan.s@gmail.com"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/zxcubika"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/ivantolkunov/"
+
+[languages]
+[languages.en]
+subtitle = "Ivan Tolkunov"
+weight = 1
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "posts/"
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about/"

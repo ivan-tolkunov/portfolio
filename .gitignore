@@ -1,0 +1,22 @@
+# Hugo generated files
+/public/
+/resources/
+/cache/
+/layouts/
+/assets/
+
+# Ignore the Hugo config file if you're using config.toml
+/config.toml
+
+# Ignore any local development config files
+/config/ # Remove this line if you don't use Hugo Modules
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore the public folder if you generate your site locally
+# (useful if you build the site before deploying to GitHub Pages)
+# /public/
