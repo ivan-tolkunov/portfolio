@@ -1,4 +1,4 @@
-baseURL = "https://ivan-tolkunov.github.io/portfolio/"
+baseURL = "https://tolkunov.dev"
 title = "Ivan Tolkunov"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -7,8 +7,8 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 paginate = 10
-rssLimit = 10                                                                                                     # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+rssLimit = 10
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 archetypeDir = "archetypes"
 contentDir = "content"
@@ -60,7 +60,7 @@ url = "mailto:tolkunov.ivan.s@gmail.com"
 
 [[params.social]]
 name = "github"
-url = "https://github.com/zxcubika"
+url = "https://github.com/ivan-tolkunov"
 
 [[params.social]]
 name = "linkedin"
