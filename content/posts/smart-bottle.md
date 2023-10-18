@@ -41,6 +41,8 @@ A server deployed on Google Cloud, I did so for a stable connection and it's fre
 
 In Fusion 360 I modeled a shape. I added microusb hole for charging and a wall for a Lithium polymer battery. Also, there is a hole for the button, I use this button to inform the system if the amount of water is changed.
 
+{{< image src="/images/3d-model.png" alt="3D model" position="center" style="width: 100%;" >}}
+
 ## Improvement
 
 Now I have a working system, but it can be improved by adding a few sensors. An accelerometer will help to reduce measurement mistakes, for our system, it's important to keep the bottle vertically. Adding LED helps users to understand if the system works in a proper way or not. To automate the process of the state system we can use the reed switch.
@@ -48,3 +50,7 @@ Now I have a working system, but it can be improved by adding a few sensors. An 
 ## Conclusion
 
 As a result, I have a working system that informs me about water consumption per day. It can be improved by adding more sensors.
+
+{{< image src="/images/screens.png" alt="Prototype" position="center" style="width: 71.5%;" >}}
+
+{{< image src="/images/prototype.png" alt="Prototype" position="center" style="width: 70%;" >}}
