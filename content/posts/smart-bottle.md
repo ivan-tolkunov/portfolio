@@ -41,7 +41,7 @@ A server deployed on Google Cloud, I did so for a stable connection and it's fre
 
 In Fusion 360 I modeled a shape. I added microusb hole for charging and a wall for a Lithium polymer battery. Also, there is a hole for the button, I use this button to inform the system if the amount of water is changed.
 
-{{< image src="/images/3d-model.png" alt="3D model" position="center" style="width: 100%;" >}}
+{{< image src="/images/model.png" alt="3D model" position="center" style="width: 100%;" >}}
 
 ## Improvement
 
