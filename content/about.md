@@ -10,7 +10,7 @@ Location: Seattle, WA
 
 ## Experience
 
-1. **Universidad De Córdoba, Spain - Software Engineer, Intern**
+1. **Universidad De Córdoba, Spain - Software Engineer**
 
    _December 2022 - August 2023_
 
@@ -22,7 +22,7 @@ As a result doctors now have a good user experience.
 
 Stack: PHP/Laravel 8/JS/MySQL
 
-2. **EPAM Systems, Ukraine - Software Engineer, Mid-Level**
+2. **EPAM Systems, Ukraine - Software Engineer**
 
    _September 2021 - December 2022_
 
