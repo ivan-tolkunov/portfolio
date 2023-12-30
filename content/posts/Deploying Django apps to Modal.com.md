@@ -3,8 +3,6 @@ title: "Deploying Django apps to Modal.com"
 date: "2023-12-29"
 ---
 
-## Deploying Django apps to Modal.com
-
 I found a great place to deploy my AI projects — [Modal.com](https://www.notion.so/Deploying-Django-apps-to-Modal-com-835da6cd51c042b792b3e65136699c17?pvs=21). It’s nice because it provides access to GPU-powered hosting for a hourly price, and it if nobody is using my app, I’m not paying for the hosting. They give $30/mo in credits, which is more than enough for me.
 
 This is a much better deal than getting a $7/mo Render or Heroku with 512MB of RAM that can’t even load pytorch models I’m using into memory without crashing.
@@ -15,12 +13,12 @@ In theory, Modal supports [WSGI-compatible](https://modal.com/docs/guide/webhook
 
 ---
 
-```
+```python
 @stub.function()
 @wsgi_app()
 def run():
-from todoApp.wsgi import application
-return application
+    from todoApp.wsgi import application
+        return application
 ```
 
 ---
@@ -35,7 +33,7 @@ The final `modal_app.py` looks like this:
 
 ---
 
-```
+```python
 import os
 from modal import Image, Secret, Stub, wsgi_app
 
@@ -63,20 +61,20 @@ stub = Stub(name="my-app", image=image)
 @wsgi_app()
 def run():
     from todoApp.wsgi import application
-    return application
+        return application
 ```
 
 ---
 
 And to run and deploy I use:
 
-```
+```bash
 $ python -m modal deploy modal_app.py
 ```
 
 After successful deployment I get a URL I can send to anyone. If the container is not running, it might take 5-15 seconds to boot up. I can also see the logs and metrics in the Modal console:
 
-{{< image src="/images/modal_command.png" alt="Prototype" position="center" style="width: 70%;" >}}
+![Console](/images/modal_command.png)
 
 My next steps:
 
