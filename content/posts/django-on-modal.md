@@ -1,6 +1,12 @@
 ---
-title: "Deploying Django apps to Modal.com"
+title: "Deploying AI-powered Django apps to Modal.com"
 date: "2023-12-29"
+summary: "Modal is a great place to deploy Python apps that use AI models and require GPU. Here's how to use Modal with Django apps"
+tags:
+  - projects
+  - python
+  - django
+  - ai
 ---
 
 I found a great place to deploy my AI projects — [Modal.com](https://www.notion.so/Deploying-Django-apps-to-Modal-com-835da6cd51c042b792b3e65136699c17?pvs=21). It’s nice because it provides access to GPU-powered hosting for a hourly price, and it if nobody is using my app, I’m not paying for the hosting. They give $30/mo in credits, which is more than enough for me.

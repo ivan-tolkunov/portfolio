@@ -1,11 +1,17 @@
 ---
-title: "Smart Bottle"
+title: "Smart Water Bottle"
 date: "2023-04-21"
+summary: "How I made a smart bottle (from scratch!) that tracks water consumption by designing and building hardware and software systems end-to-end"
+tags:
+  - projects
+  - hardware
+  - react native
+  - googlecloud
+  - fusion360
+  - 3d printing
 ---
 
-## Introduction
-
-[![Prototype](/images/prototype.png)](https://www.youtube.com/watch?v=Yq9PTi10ka4)
+{{< youtube Yq9PTi10ka4 >}}
 
 As a software developer, I often found myself immersed in long coding sessions, leading to inadequate water consumption. This lack of hydration affected my health and productivity. To address this, I embarked on a journey to create the "Smart Bottle," a device designed to track and remind me of my daily water intake.
 

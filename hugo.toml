@@ -6,11 +6,33 @@ paginate = 10
 enableRobotsTXT = true
 
 [[menu.main]]
+identifier = "home"
+name = "Home"
+title = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+title = "Posts"
+url = "/posts/"
+weight = 3
+
+[[menu.main]]
+identifier = "resume"
+name = "Resume"
+title = "Resume"
+url = "/ivan_tolkunov_software_engineer.pdf"
+weight = 3
+
+
+[[menu.main]]
 identifier = "About"
 name = "About"
 title = "About"
-url = "/about/"
-weight = 0
+url = "/"
+weight = 4
 
 [params]
 author = "Ivan Tolkunov"
