@@ -1,7 +1,7 @@
 ---
 title: "Deploying AI-powered Django apps to Modal.com"
 date: "2023-12-29"
-summary: "Modal is a great place to deploy Python apps that use AI models and require GPU. Here's how to use Modal with Django apps"
+summary: "Modal is a great place to deploy Python apps that use AI models and require GPU. Here's how to use Modal with Django apps."
 tags:
   - projects
   - python
