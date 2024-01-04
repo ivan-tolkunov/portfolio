@@ -2,7 +2,6 @@
 /public/
 /resources/
 /cache/
-/layouts/
 /assets/
 
 # Ignore the Hugo config file if you're using config.toml

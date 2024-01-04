@@ -34,6 +34,35 @@ title = "About"
 url = "/"
 weight = 4
 
+[[menu.footer]]
+identifier = "home"
+name = "Home"
+title = "Home"
+url = "/"
+weight = 1
+
+[[menu.footer]]
+identifier = "posts"
+name = "Posts"
+title = "Posts"
+url = "/posts/"
+weight = 3
+
+[[menu.footer]]
+identifier = "resume"
+name = "Resume"
+title = "Resume"
+url = "/ivan_tolkunov_software_engineer.pdf"
+weight = 3
+
+
+[[menu.footer]]
+identifier = "About"
+name = "About"
+title = "About"
+url = "/"
+weight = 4
+
 [params]
 author = "Ivan Tolkunov"
 email = "tolkunov.ivan.s@gmail.com"
@@ -51,6 +80,7 @@ tocWordCount = 250
 copyCodeButton = true
 rssAsSocialIcon = false
 mathjax = false
+testparam = "**FOOFOF**"
 
 [[params.social]]
 id = "email"

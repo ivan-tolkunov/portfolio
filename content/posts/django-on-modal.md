@@ -24,7 +24,7 @@ In theory, Modal supports [WSGI-compatible](https://modal.com/docs/guide/webhook
 @wsgi_app()
 def run():
     from todoApp.wsgi import application
-        return application
+    return application
 ```
 
 ---

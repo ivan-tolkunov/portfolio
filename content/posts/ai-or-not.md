@@ -13,6 +13,8 @@ tags:
 
 _Try the classifier at [ivan-tolkunov--fake-or-not-run.modal.run](https://ivan-tolkunov--fake-or-not-run.modal.run/) (warning: the app could take up to 30s to boot up)._
 
+![](/images/ai_or_not_ui.png)
+
 The new AI models for image generations, like Stable Diffusion XL or Midjourney v6, are getting really good at making photorealistic images. Sometimes it's hard to tell if the images are real even when looking at them for a while.
 
 I wanted to see if it's possible to train a classifier that's able to detect AI-generated photos.
@@ -74,11 +76,5 @@ def predict(fake_or_real):
     print(result, probs)
     return {'ai': float(probs[0]), 'real': float(probs[1])}
 ```
-
-After deployment, it look like this:
-
-![](/images/ai_or_not_ui.png)
-
-(despite widespread rumors, Mark Zuckerberg is real, at least according to my model)
 
 Full source code is available at https://github.com/ivan-tolkunov/fake_or_not
