@@ -1,7 +1,7 @@
 ---
-title: "Building AI-powered TODO app"
+title: "Building AI-powered personal task tracker"
 date: "2024-01-02"
-summary: "A fun TODO app you can control by talking to it. Uses Whisper and Mixtral models to make natural language processing seamless."
+summary: "Task list app you can control by talking to it. Uses Whisper and Mixtral models to make natural language processing seamless."
 tags:
   - projects
   - python
