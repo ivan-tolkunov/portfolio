@@ -4,7 +4,7 @@ title: "About"
 
 Name: Ivan Tolkunov \
 Title: Software Engineer \
-Location: Seattle, WA
+Location: Toronto, Ontario, Canada
 
 ---
 
@@ -38,7 +38,7 @@ Stack: Java 8/Spring Boot/Node.js/LDAP/Rundeck
 
 1. **National Technical University of Ukraine “KPI”, Master**
 
-   _September 2023 - Present_
+   _September 2023 - December 2024_
 
 Now I am studying at the Faculty of Information Systems and Technologies at the National Technical University of Ukraine “KPI”.
 

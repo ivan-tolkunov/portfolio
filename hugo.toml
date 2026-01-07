@@ -1,10 +1,12 @@
 baseURL = "https://tolkunov.dev"
 title = "Ivan Tolkunov"
 languageCode = "en-us"
-theme = "anubis"
-paginate = 10
+theme = "archie"
 enableRobotsTXT = true
 
+[pagination]
+pagerSize = 10
+
 [[menu.main]]
 identifier = "home"
 name = "Home"
@@ -17,7 +19,7 @@ identifier = "posts"
 name = "Posts"
 title = "Posts"
 url = "/posts/"
-weight = 3
+weight = 2
 
 [[menu.main]]
 identifier = "resume"
@@ -26,77 +28,39 @@ title = "Resume"
 url = "/ivan_tolkunov_software_engineer.pdf"
 weight = 3
 
-
 [[menu.main]]
-identifier = "About"
+identifier = "about"
 name = "About"
 title = "About"
-url = "/"
-weight = 4
-
-[[menu.footer]]
-identifier = "home"
-name = "Home"
-title = "Home"
-url = "/"
-weight = 1
-
-[[menu.footer]]
-identifier = "posts"
-name = "Posts"
-title = "Posts"
-url = "/posts/"
-weight = 3
-
-[[menu.footer]]
-identifier = "resume"
-name = "Resume"
-title = "Resume"
-url = "/ivan_tolkunov_software_engineer.pdf"
-weight = 3
-
-
-[[menu.footer]]
-identifier = "About"
-name = "About"
-title = "About"
-url = "/"
+url = "/about/"
 weight = 4
 
 [params]
 author = "Ivan Tolkunov"
-email = "tolkunov.ivan.s@gmail.com"
-description = ""
-dateFormat = "2006-01-02"
-paginationSinglePost = true
-style = "dark-without-switcher"
+subtitle = "Software engineer based in Toronto, focused on building practical AI tools."
+mode = "auto"
+useCDN = false
 mainSections = ["posts"]
-sectionsWithFullContentOnListPage = ["notes"]
-readMore = true
-readNextPosts = 5
-disableSummary = false
-toc = false
-tocWordCount = 250
-copyCodeButton = true
-rssAsSocialIcon = false
-mathjax = false
-testparam = "**FOOFOF**"
 
 [[params.social]]
-id = "email"
-name = "tolkunov.ivan.s@gmail.com"
+name = "Email"
+icon = "mail"
+url = "mailto:tolkunov.ivan.s@gmail.com"
 
 [[params.social]]
-id = "github"
-name = "ivan-tolkunov"
+name = "GitHub"
+icon = "github"
+url = "https://github.com/ivan-tolkunov"
 
 [[params.social]]
-id = "linkedin"
-name = "ivantolkunov"
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/ivantolkunov/"
 
 [[params.social]]
-id = "twitter"
-name = "zxcubika"
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/zxcubika"
 
 [markup.goldmark.renderer]
 unsafe = true
