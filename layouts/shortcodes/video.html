@@ -1,0 +1,24 @@
+{{- $src := .Get "src" -}}
+{{- $type := .Get "type" -}}
+{{- $preload := .Get "preload" | default "metadata" -}}
+{{- $autoplay := .Get "autoplay" -}}
+{{- $loop := .Get "loop" -}}
+{{- $caption := .Get "caption" -}}
+{{- $alt := .Get "alt" -}}
+{{- $controls := .Get "controls" -}}
+
+<figure>
+  <video
+    {{- if $autoplay }} autoplay playsinline muted{{ end -}}
+    {{- if $loop }} loop{{ end -}}
+    preload="{{ $preload }}"
+    {{- if or (not $controls) (and (ne $controls "0") (ne $controls "false")) }} controls{{ end -}}
+    {{- if $alt }} aria-label="{{ $alt }}"{{ end -}}
+  >
+    <source src="{{ $src }}" {{- if $type }} type="{{ $type }}"{{ end -}}>
+    Your browser does not support the video tag.
+  </video>
+  {{- if $caption }}
+  <figcaption>{{ $caption }}</figcaption>
+  {{- end }}
+</figure>
